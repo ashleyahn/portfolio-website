@@ -1,0 +1,48 @@
+/* 
+	Global classes 
+					*/
+body {
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+#headshot{
+	border-radius: 40%;
+	height: 15%;
+	width: 15%;
+	display: inline-block;
+}
+
+.header{
+	margin: auto;
+}
+
+.header-info{
+	display: inline-block;
+	margin: 0;
+	padding: 15px;
+  	position: absolute;
+}
+
+li{
+	display: inline;
+}
+
+#linx-desc {
+	display: none;
+
+}
+
+#review-desc {
+	display: none;
+}
+
+.logo{
+	width: 10%;
+	height: 10%;
+	display: inline-block;
+}
+
+.project-details{
+	display: inline-block;
+}

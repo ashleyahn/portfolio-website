@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Ashley's Portfolio Site</title>
+   <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+   <div class= "container">
+      <div class="nav-bar">
+         <ul>
+            <li><a href="default.asp">Home</a></li>
+            <li><a href="news.asp">News</a></li>
+            <li><a href="contact.asp">Contact</a></li>
+            <li><a href="about.asp">About</a></li>
+          </ul>
+      </div>
+      <div class="header">
+         <img src="./images/headshot.jpg" id="headshot"/>
+         <div class="header-info">
+            <h1 id="name">Ashley Ahn</h1>
+            <p>Computer Science Major | Business Insitutions Minor</p>
+            <p>Northwestern University Class of 2022</p>
+            <p>Aspiring Software Engineer</p>
+         </div>
+         
+      </div>
+      <div class="bio">
+         <h2></h2>
+         <p>I am an aspiring software engineer currently interning at Uptake on the Application Enablement Team. Last summer (2019), I interned at Hireher LLC, a small startup based in Los Angeles, CA, as a cross-team software engineer and business development intern.</p>
+      </div>
+      <div class="projects">
+         <h2>Projects</h2>
+         <div class="review-classifier">
+            <img src="./images/python.png" class="logo"/>
+            <div class="project-details">
+               <h3>Review Classifier</h3>
+               <a href="https://github.com/ashleyahn/Review-Classifier" >https://github.com/ashleyahn/Review-Classifier</a>
+               <Button id="more-info-button" onclick="showClassifierDesc()">More Information</Button>
+               <div class="project-desc" id="review-desc">
+                  <p>Review Classifier is an implementation of a Naïve Bayes Classifier that categorizes movie reviews as positive or negative based off of the text in the review using simple machine learning.</p>
+               </div>
+            </div>
+         </div>
+         <div class="linx">
+            <img src="./images/linx.png" class="logo"/>
+            <div class="project-details">
+               <h3>Linx</h3>
+               <a href="https://github.com/ashleyahn/linx" >https://github.com/ashleyahn/linx</a>
+               <Button id="more-info-button" onclick="showLinxDesc()">More Information</Button>
+               <div class="project-desc" id="linx-desc">
+                  <p>Linx is a web application that organizes and save links that users can access from anywhere, inspired by online schooling due to COVID-19. Users can open selected links all at once and can organize and personalize their links by a filing system.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="main.js"></script>
+</body>
+</html>
